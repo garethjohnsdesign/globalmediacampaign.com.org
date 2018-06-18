@@ -9,7 +9,9 @@ collections:
     title: Uploads
     output: false
 url: https://www.globalmediacampaign.org
-description: "The Global Media Campaign is a non-profit organization that uses media to raise awareness about the harmful impact of Female Genital Mutilation by 'opening the airwaves' in countries with high prevalence."
+description: The Global Media Campaign is a non-profit organization that uses media
+  to raise awareness about the harmful impact of Female Genital Mutilation by 'opening
+  the airwaves' in countries with high prevalence.
 permalink: pretty
 exclude:
 - bower.json
