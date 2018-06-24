@@ -28,7 +28,6 @@ plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
-- jekyll/imgix
 markdown: kramdown
 kramdown:
   input: GFM
@@ -50,5 +49,3 @@ compress_html:
   - " -->"
   blanklines: true
   profile: false
-imgix:
-  source: martin-zahringer.imgix.net

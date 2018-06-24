@@ -15,15 +15,11 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-arrows {
-  font-size: 2rem;
+.icon {
+  font-size: 1.5rem;
 }
 
-.icon-sort {
-  font-size: 2rem;
-}
-
-.icon-logo {
-  font-size: 10rem;
-  color: $white;
+.icon-icon {
+  font-size: 5rem;
+  color: $primary-color;
 }

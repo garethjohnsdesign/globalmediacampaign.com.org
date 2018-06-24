@@ -10,18 +10,64 @@ layout: compress
 <!-- End Head -->
 
 <body>
-  
-<!-- Off Canvas Navigation -->
-<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
-{% include offcanvas.html %}
-</div>
-<!-- End Off Canvas Navigation --> 
+	  
 
-<div class="off-canvas-content {{page.layout | slugify}}" data-off-canvas-content>
-<!-- Navigation -->
-{% include navigation.html %}
-<!-- End Navigation -->
-</div>
+  <div class="grid-y align-center" style="min-height: 100vh;">
+    <div class="shrink cell">
+      
+      <div class="grid-container padding-2">
+      
+      <div class="grid-x">
+        <div class="cell text-center">
+          <svg class="icon icon-icon"><use xlink:href="/assets/icons/symbol-defs.svg#icon-icon"></use></svg>
+        </div>
+      </div>
+      
+      <div class="grid-x">
+        <div class="cell text-center">
+          <h1 class="primary-color">Global Media Campaign to End FGM</h1>
+        </div>
+      </div>
+      
+      <div class="grid-x grid-padding-y">
+        <div class="cell text-center">
+          <h2>We are non-profit organization that uses media to raise awareness about the harmful impact of Female Genital Mutilation by 'opening the airwaves' in countries with high prevalence.</h2>
+        </div>
+      </div>
+      
+      <div class="grid-x grid-padding-y">
+        <div class="cell text-center">
+          <a href="https://www.youtube.com/watch?v=HN1mulqwv5g" class="button"><h3>All you Need to Know About FGM <svg class="icon icon-play4"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play4"></use></svg></h3></a>
+        </div>
+      </div>
+      
+      <div class="grid-x align-center">
+        <div class="shrink cell">
+          <ul class="menu">
+            <li><a href="https://www.facebook.com/gmcendfgm/" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+            <li><a href="https://twitter.com/GMCEndFGM" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="grid-x grid-padding-y">
+        <div class="cell text-center">
+          <a href="https://www.paypal.com/donate/?token=LpunkN5HnO1UQ3cCBoVlNx8rxpLRno8ASEelPtsOZ7QqwzO-5IswCjj9yBHw-OV6_RsNbW&country.x=GB&locale.x=GB" class="button">Make a Donation</a>
+          <h3>#FGMNotMyReligion</h3>
+        </div>
+      </div>
+      
+
+      <div class="grid-x">
+        <div class="cell text-center">
+         <small>GMC Charity to End FGM is a Charity Registered by The Charity Commission for England and Wales. Reg No. 1176359</small>
+        </div>
+      </div>
+      
+      </div>
+      
+    </div>
+  </div>
 
 <!-- Scripts -->
 {% include scripts.html %}
