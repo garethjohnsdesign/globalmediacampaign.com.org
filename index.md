@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Beta
 position: 0
 image: "/assets/img/og-image.jpg"
 hero-image: "/uploads/hero.jpg"
