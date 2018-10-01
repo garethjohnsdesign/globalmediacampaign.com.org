@@ -1,5 +1,5 @@
 ---
-title: Beta
+title: Global Media Campaign to End FGM
 position: 0
 image: "/assets/img/og-image.jpg"
 hero-image: "/uploads/hero.jpg"
