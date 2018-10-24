@@ -27,6 +27,15 @@
   }
 }
 
+h1, h2, h3 {
+  font-family: $secondary-font-family;
+  line-height: 1;
+}
+
+.button {
+  font-family: $secondary-font-family;
+}
+
 // 2. Global
 // ---------
 
@@ -61,10 +70,33 @@ svg {
   color: get-color(primary);
 }
 
+.white {
+  color: $white;
+}
+
 .secondary-color {
   color: get-color(secondary);
 }
 
-.button h3 {
-  margin-bottom: 0;
+.home .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  @include links ($white, $black)
+}
+
+
+.index__hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+}
+
+.index__video {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
 }
